@@ -13,6 +13,9 @@ repo = 'vim-airline/vim-airline-themes'
 repo = 'morhetz/gruvbox'
 
 [[plugins]]
+repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
 repo = 'tpope/vim-surround'
 
 [[plugins]]
@@ -21,7 +24,10 @@ repo = 'jacoborus/tender.vim'
 [[plugins]]
 repo = 't9md/vim-quickhl'
 
-# ddc.vim configulations ----------------
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+# ddc.vim configurations ----------------
 [[plugins]]
 repo = 'vim-denops/denops.vim'
 
