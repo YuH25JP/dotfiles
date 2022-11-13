@@ -1,0 +1,57 @@
+# [[dein.toml]]
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'jacoborus/tender.vim'
+
+[[plugins]]
+repo = 't9md/vim-quickhl'
+
+# ddc.vim configulations ----------------
+[[plugins]]
+repo = 'vim-denops/denops.vim'
+
+[[plugins]]
+repo = 'vim-denops/denops-helloworld.vim'
+
+[[plugins]]
+repo = 'Shougo/ddc.vim'
+
+[[plugins]]
+repo = 'Shougo/ddc-ui-native'
+
+[[plugins]]
+repo = 'Shougo/ddc-source-around'
+
+[[plugins]]
+repo = 'Shougo/ddc-matcher_head'
+
+[[plugins]]
+repo = 'Shougo/ddc-sorter_rank'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+
+[[plugins]]
+repo = 'shun/ddc-vim-lsp'
+# ---------------------------------------
+
+[[plugins]]
+repo = 'mattn/vim-sonictemplate'
