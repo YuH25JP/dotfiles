@@ -118,3 +118,6 @@ fi
 . "$HOME/.cargo/env"
 
 export PATH="$HOME/.deno/bin:$PATH"
+
+# forbid installing packages by using the global pip command
+export PIP_REQUIRE_VIRTUALENV=true
