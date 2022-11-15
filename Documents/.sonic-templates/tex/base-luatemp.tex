@@ -1,12 +1,32 @@
 \documentclass{ltjsarticle}
 \usepackage{luatexja}
-\usepackage{amsmath,mathtools,amssymb,ascmac,fancybox,booktabs,color,graphicx,here}
+\usepackage{amsmath,mathtools,amssymb,ascmac,fancybox,booktabs,color,graphicx,here,listings}
 \usepackage{bookmark}
 \usepackage[margin=20truemm]{geometry}
 \usepackage{xurl}
 \hypersetup{unicode, bookmarksnumbered=true,final}
 
+\lstset{
+	language=Python,
+	basicstyle={\ttfamily},
+	identifierstyle={\small},
+	commentstyle={\small \color[rgb]{0.651,0.118,0.118}},
+	keywordstyle={\small \bfseries \color[rgb]{0.196,0.659,0}},
+	ndkeywordstyle={\small},
+	stringstyle={\small\ttfamily \color[rgb]{0.165,0.612,0.957}},
+	classoffset=1,
+	frame={tb},
+	breaklines=true,
+	columns=[l]{fullflexible},
+	numbers=left,
+	numberstyle={\scriptsize},
+	stepnumber=1,
+	numbersep=10pt,
+	lineskip=-0.5ex
+}
+
 \begin{document}
+%\maketitle
 
 {{_cursor_}}
 
