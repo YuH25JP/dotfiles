@@ -26,6 +26,10 @@ inoremap [ []<LEFT>
 inoremap ' ''<LEFT>
 inoremap " ""<LEFT>
 " --------------------------------------------------
+" furthermore keymap settings----------------------
+noremap j gj
+noremap k gk
+"---------------------------------------------------
 
 " recognize the blank .tex file as tex, not as plaintex
 " (This helps the plugin mattn/sonictemplate-vim to work correctly)
