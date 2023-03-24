@@ -26,6 +26,28 @@ inoremap [ []<LEFT>
 inoremap ' ''<LEFT>
 inoremap " ""<LEFT>
 " --------------------------------------------------
+"
+function! GetNextString(length) abort
+	let l:str = ""
+	for i in range(0, a:length-1)
+		let l:str = l:str.getline(".")[col(".")-1+i]
+	endfor
+	return l:str
+endfunction
+
+function! InputCloseParenthesis(parenthesis) abort
+	let l:nextChar = GetNextString(1)
+	if l:nextChar == a:parenthesis
+		return "\<RIGHT>"
+	else
+		return a:parenthesis
+	endif
+endfunction
+
+inoremap <expr> } InputCloseParenthesis("}")
+inoremap <expr> ] InputCloseParenthesis("]")
+inoremap <expr> ) InputCloseParenthesis(")")
+"  -------------------------------------------------
 " furthermore keymap settings----------------------
 noremap j gj
 noremap k gk
