@@ -1,0 +1,11 @@
+{
+    "explorer.icon.enableNerdfont": true,
+    "languageserver": {
+        "haskell": {
+            "command": "haskell-language-server-wrapper",
+            "args": ["--lsp"],
+            "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.ymal", "hie.yaml"],
+            "filetypes": ["haskell", "lhaskell"]
+        }
+    }
+}
